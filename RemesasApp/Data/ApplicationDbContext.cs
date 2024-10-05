@@ -11,5 +11,6 @@ namespace RemesasApp.Data
     {
     public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
     public DbSet<Remesa> Remesas { get; set; }
+    public DbSet<ConversionMoneda> ConversionMonedas { get; set; }
     }
 }
