@@ -7,7 +7,7 @@ namespace RemesasApp.Models
 {
     public class ConversionMoneda
     {
-        public int MyProperty { get; set; }
+        public int Id { get; set; }
         public DateTime? Fecha { get; set; }
         public decimal? TasaUsdBtc { get; set; }
         public decimal? TasaBtcUsd { get; set; }

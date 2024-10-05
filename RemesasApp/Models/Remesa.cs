@@ -7,7 +7,7 @@ namespace RemesasApp.Models
 {
     public class Remesa
     {
-       public int MyProperty { get; set; }
+        public int Id { get; set; }
         public string? NombreRemitente { get; set; }
         public string? NombreDestinatario { get; set; }
         public string? PaisOrigen { get; set; }
