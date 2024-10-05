@@ -1,0 +1,34 @@
+@model RemesasApp.Models.Remesa
+
+<form asp-action="RegistrarRemesa" method="post">
+    <div class="form-group">
+        <label asp-for="NombreRemitente" class="control-label">Remitente</label>
+        <input asp-for="NombreRemitente" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="NombreDestinatario" class="control-label">Destinatario</label>
+        <input asp-for="NombreDestinatario" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="PaisOrigen" class="control-label">País de Origen</label>
+        <input asp-for="PaisOrigen" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="PaisDestino" class="control-label">País de Destino</label>
+        <input asp-for="PaisDestino" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="MontoEnviado" class="control-label">Monto Enviado</label>
+        <input asp-for="MontoEnviado" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="MonedaEnviada" class="control-label">Moneda Enviada (USD o BTC)</label>
+        <input asp-for="MonedaEnviada" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="TasaCambio" class="control-label">Tasa de Cambio</label>
+        <input asp-for="TasaCambio" class="form-control" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Registrar Remesa</button>
+</form>

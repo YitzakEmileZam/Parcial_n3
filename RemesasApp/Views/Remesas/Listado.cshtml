@@ -1,0 +1,33 @@
+@model IEnumerable<RemesasApp.Models.Remesa>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nombre del Remitente</th>
+            <th>Nombre del Destinatario</th>
+            <th>País de Origen</th>
+            <th>País de Destino</th>
+            <th>Monto Enviado</th>
+            <th>Moneda</th>
+            <th>Tasa de Cambio</th>
+            <th>Monto Final</th>
+            <th>Estado</th>
+        </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.NombreRemitente</td>
+            <td>@item.NombreDestinatario</td>
+            <td>@item.PaisOrigen</td>
+            <td>@item.PaisDestino</td>
+            <td>@item.MontoEnviado</td>
+            <td>@item.MonedaEnviada</td>
+            <td>@item.TasaCambio</td>
+            <td>@item.MontoFinal</td>
+            <td>@item.EstadoTransaccion</td>
+        </tr>
+    }
+    </tbody>
+</table>
