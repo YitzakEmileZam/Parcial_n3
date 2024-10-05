@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RemesasApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+133b120da6ac4dfe0eca0ad5cf32e535f23651cf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+91fad7f55b4cc0dc047a207ed144776f65e69798")]
 [assembly: System.Reflection.AssemblyProductAttribute("RemesasApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RemesasApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
